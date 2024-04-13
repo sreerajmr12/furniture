@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --brown: rgb(56, 3, 3);
+}
+#logo {
+  width: 100%;
+  height: 100px;
+}
+.nav-item i {
+  color: rgba(153, 152, 152, 0.635);
+}
+.nav-item {
+  font-size: 20px;
+}
+#contactbtn {
+  background-color: var(--brown);
+  color: white;
+}
+#contactbtn:hover {
+  background-color: white;
+  color: var(--brown);
+  border-color: var(--brown);
+}
+.main {
+  background-image: url(./images/img3.webp);
+  /* height: 120vh; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.welcome {
+  padding-top: 22%;
+  padding-left: 7%;
+  color: rgb(243, 242, 242);
+}
+.welcome h1 {
+  font-size: 105px;
+}
+#gallery button{
+  width: 25%;
+}
+@media (max-width: 600px) {
+  .welcome h1 {
+    font-size: 50px;
+  }
+  .main{
+    background-position:bottom ;
+  }
+  .nav-item i{
+    display: none;
+  }
+  #gallery button{
+    width: 75%;
+  }
+}
+.work {
+  margin-top: 10%;
+  background-image: url(./images/white\ bg.jpg);
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  padding-top: 4%;
+  background-size: cover;
+}
+.viewbtn {
+  border-color: var(--brown);
+  color: var(--brown);
+}
+.viewbtn:hover {
+  background-color: var(--brown);
+  color: white;
+}
+.imgdiv {
+  width: 100%;
+  height: 490px;
+  border: 5px solid var(--brown);
+  padding-top: 4%;
+  padding-left: 4%;
+}
+.hr {
+  width: 20%;
+  height: 5px;
+  background-color: var(--brown);
+}
+#fur {
+  color: var(--brown);
+}
+#gallery {
+  padding: 8%;
+}
+#gallery h1 {
+  padding-bottom: 5%;
+  font-weight: 600;
+}
+.img1 {
+  position: relative;
+  /* height: 100%; */
+}
+
+.rosewood {
+  width: 50%;
+  /* height: 10%; */
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.893);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+}
